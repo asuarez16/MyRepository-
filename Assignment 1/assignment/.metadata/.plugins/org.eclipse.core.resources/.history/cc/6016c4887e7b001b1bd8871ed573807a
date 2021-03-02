@@ -1,0 +1,50 @@
+package ag1;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+		for (int i = 100; i <= 999; i++) 
+		{
+			// prints out if numbers between 1 to 10 are even or odd
+			String pal = Integer.toString(i);
+			
+			//System.out.print(pal.charAt(0));
+			//System.out.println(pal.charAt(2));
+			
+			int first = Character.getNumericValue(pal.charAt(0));
+			int last = Character.getNumericValue(pal.charAt(2));
+			
+
+			//System.out.print(first);
+		    //System.out.println(last);
+		    
+		    if ( first == last)
+		    {
+		    	System.out.println(i + " is a Palindrome");
+		    	
+		    }
+			
+			/*
+			if (first == last) 
+			{
+				System.out.println(i + " Is a Palindrome");
+			} 
+			else 
+			{
+				
+				System.out.println(i + " Is a Palindrome");
+			
+			}
+			*/
+			
+			
+		}
+
+
+	}
+
+}
