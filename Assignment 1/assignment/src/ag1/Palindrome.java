@@ -12,14 +12,11 @@ public class Palindrome {
 			//converts int i to string
 			String pal = Integer.toString(i);
 			
-			
-			//converts char value to numeric value 
-			int first = Character.getNumericValue(pal.charAt(0));
-			int last = Character.getNumericValue(pal.charAt(2));
+		
 			
 
-		    //checks if number is a palindrom and prints if true
-		    if ( first == last)
+		    //checks if number is a palindrome and prints if true
+		    if ( pal.charAt(0) == pal.charAt(2))
 		    {
 		    	System.out.println(i + " is a Palindrome");
 		    	
