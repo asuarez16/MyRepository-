@@ -1,0 +1,25 @@
+package ag1;
+
+public class LargestEvenOrOddSum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int oddsum = 0;
+		int evensum = 0;
+		// find the sum of all even numbers between 1 and 100 and prints the result
+		// finds the sum of all odd numbers between 1 and 100 and prints the result
+		for (int i = 1; i <= 10; i++) {
+
+			if (i % 2 == 0) {
+				evensum +=i; 
+				System.out.println(evensum);
+
+			} else {
+				oddsum += i;
+				System.out.println(oddsum);
+			}
+		}
+
+	}
+
+}
