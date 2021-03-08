@@ -41,6 +41,10 @@ public class ArrayPrime {
 			if (n % i == 0) {
 				c++;
 			}
+			if(n==1)
+			{
+				c++;
+			}
 		}
 		if (c == 2) {
 			return true;
